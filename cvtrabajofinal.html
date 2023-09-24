@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final</title>
+    <link rel="stylesheet" href="cvtrabajofinal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body class="foto">
+    <div >
+    
+
+        <!-- Aca creo una caja que tiene una clase que da un display flex y que centra la caja -->
+        <div class="imagenPerfil">
+            <img src="./fotoperfilcv.jpg" alt="foto de perfil del cv" class="imgMargin">
+        </div>
+<!-- aca uso la misma clase para centrar el titulo -->
+        <div class="imagenPerfil">
+            <h1>
+                MARIA FERNANDA kROUPA
+            </h1>
+        </div>
+<div class="ordena">
+        <section>
+            <div class="caja">
+                <h3 id="particular">
+                    PERSONALES
+                </h3>
+                <p><b>• Edad:</b> 34 años <br/><i class="fa-solid fa-earth-americas"></i><b> Nacionalidad:</b> Argentina <br/><b>• Ciudad:</b> Mar del Plata</p>
+                <h3 id="particular">
+                    APTITUDES
+                </h3>
+                <p>• Dirección de equipos. <br /> • Resolución de incidencias. <br /> • Capacidad de análisis.<br /> •
+                    Diagnostico de fallos. <br /> • Instalación de equipos. <br /> • Ciberseguridad</p>
+                <h3 id="particular">
+                    IDIOMAS
+                </h3>
+                <P><b>• Español:</b> Idioma nativo <br /><b>• Inglés:</b>Avanzado |C1|</p>
+                <H3 id="particular">
+                    LENGUAJES DE PROGRAMACION
+                </H3>
+                <p>• JAVA <br />• Phyton <br />• C/C++ <br />• PHP</P>
+            </div>
+        </section>
+
+
+        <article >
+            <p id="presentacion" class="presentaArticulo"> <i class="fa-solid fa-user"></i> Informática con<b> excelentes habilidades y
+                    conocimientos</b> con más de 9 años
+                de experiencia proporcionando un soporte excepcional a los usuarios de todos los niveles.
+                Experta en cuestiones de soporte <br /> y con buena reputación como técnico capacitado para
+                trabajar en equipo y encontrar soluciones. </p>
+
+        </article>
+
+
+
+        <aside>
+            <div class="contenedor">
+
+                <h3><u><i class="fa-solid fa-desktop"></i> EXPERIENCIA LABORAL</u> </h3>
+                <h4>Ingeniera Informatica |01/2015 - Actual|</h4>
+                <p><i class="fa-solid fa-chevron-right"></i> Coordinacion de un equipo de mas de 10 personas. <br /> <i
+                        class="fa-solid fa-chevron-right"></i> Formación a técnicos de la compañía sobre el
+                    funcionamiento de sistemas.<br /> <i class="fa-solid fa-chevron-right"></i> Realización de cálculos
+                    de datos de prueba para la mejora del rendimiento de sistemas.</p>
+                <h4>Ingenieria informática</h4>
+                <p><i class="fa-solid fa-chevron-right"></i> Realización de estimaciones del tiempo necesario para la
+                    ejecución de proyectos.<br /> <i class="fa-solid fa-chevron-right"></i> Mejora de los procesos
+                    mediante soluciones informáticas creadas en Phyton. <br /> <i class="fa-solid fa-chevron-right"></i>
+                    Asesoramiento técnico personalizado sobre trasformación digital y arquitectura de soluciones.</p>
+                <h4>Técnica informática</h4>
+                <p><i class="fa-solid fa-chevron-right"></i> Mantenimiento y reparación del hardware y aplicación de
+                    medidas de prevención de fallos <br /> <i class="fa-solid fa-chevron-right"></i> Asesoramiento a
+                    usuarios para la configuracón y el uso de computadoras <br /> <i
+                        class="fa-solid fa-chevron-right"></i> Aplicación de procedimientos de operación de sistemas de
+                    grandes centros de datos</p>
+
+                <h3><i class="fa-solid fa-graduation-cap"></i><u> FORMACIÓN ACADÉMICA</u></h3>
+                <h4>Máster en Ingeniería de Software y Sístemas |06-2014|
+
+                     <br /> Ingeniería informática |06-1011|</h4>
+             <i class="fa-solid fa-chevron-right"></i>Universidad de Buenos Aires <button id="botonRedireccionar">Click aqui</button></p> 
+                
+                
+            </div>
+              <script src="tutorial.js"></script>
+        </aside>
+
+    </div>
+
+        <footer>
+            <p class="contacto">CONTACTO<br /> <b> <i class="fa-solid fa-thumbtack"></i>
+                    Direccion:</b> Av Colon 3425 -<b> <i class="fa-solid fa-phone"> </i> Telefono:<a href="https://api.whatsapp.com/send?phone=5492235233366" target="_blank" class="whatsapp-button">WhatsApp</a>
+                    </b></a>
+
+                - <b><i class="fa-solid fa-square-envelope"> </i> <a href="mailto:mariafer.k@gmail.com">enviar correo</a>
+            </p>
+        </footer>
+
+        <script src="tutorial.js"></script>
+
+        <script>
+            const boton = document.getElementById("botonRedireccionar");
+        
+            boton.addEventListener("click", function() {
+                window.location.href = "https://www.cbc.uba.ar/carreras";
+            });
+        </script>
+    </div>
+
+    </div>
+</body>
+
+</html>
+
+
+
+
